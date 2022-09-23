@@ -1,0 +1,43 @@
+.homepage-background {
+  background: #ffffff;
+  min-height: 100vh;
+}
+.ul-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-left: 30px;
+  justify-content: center;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  width: 200px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  align-items: center;
+}
+.language-icon {
+  margin-right: 10px;
+}
+.courses-heading {
+  margin-left: 80px;
+  font-family: 'Roboto';
+  color: #1e293b;
+  margin-top: 30px;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-link {
+  text-decoration: none;
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
